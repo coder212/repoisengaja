@@ -1,3 +1,7 @@
+#dibuat oleh john thor 
+#kalo mau pake ya pake aja sih kalo pengen mau ngembangin juga silakan
+#yang jelas ini source code hanyalah asal ketik
+#library yan diperlukan adalah telethon sisanya udah bawaan dan aku mengunakan bot ini dengan python3.5
 import os, re, random, asyncio, sys, time, json
 from telethon import TelegramClient, events, sync
 def read_the_env():
