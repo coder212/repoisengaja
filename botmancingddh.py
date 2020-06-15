@@ -17,7 +17,7 @@ client = TelegramClient('makun', API_ID, API_HASH)
 dest= 'danaudalamhutan'
 
 async def nungguin(w):
-   await asyncio.sleep(w*60)
+   await asyncio.sleep(w)
 
 async def mancingddh(client,w):
    while True:
@@ -36,5 +36,6 @@ async def mancingddh(client,w):
 #      await client.send_message(dest, jrandom[a])
 
 with client:
-   client.loop.create_task(mancingddh(client,8))
+   #parameter kedua mancingdd adalah lamanya menungu dalam detik karena menggunakan bot alpha maka menunggu 8menit atau dalam detik 480
+   client.loop.create_task(mancingddh(client,480))
    client.run_until_disconnected()
