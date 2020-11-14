@@ -20,6 +20,7 @@ dest= ('danaudalamhutan','kampungmaifambot')
 
 async def nungguin(w):
    await asyncio.sleep(w)
+<<<<<<< HEAD
 
 
 async def bertani(client,w, tanaman, lahan):
@@ -30,6 +31,8 @@ async def bertani(client,w, tanaman, lahan):
        await nungguin(1)
        await client.send_message(dest[1], "/siram")
        await nungguin(w)
+=======
+>>>>>>> 721b909813b4ca52b4363b9c7acb1d6f57204665
 
 async def mancingddh(client,w):
    while True:
